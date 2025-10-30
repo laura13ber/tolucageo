@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>toluca</title>
+<style>
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Carrusel */
+.carousel {
+  position: relative;
+  max-width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img, .video-container {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Botones de control */
+button.prev, button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 49, 49, 0.8);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+button.prev:hover, button.next:hover {
+  background-color: rgb(200, 30, 30);
+}
+
+button.prev { left: 10px; }
+button.next { right: 10px; }
+/* Botones principales (Historia / Donde late el rojo) */
+.main-buttons button {
+  border: none;
+  padding: 15px;
+  background-color: rgb(255, 49, 49);
+  color: white;
+  font-family: brush-Script;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.main-buttons button:hover {
+  background-color: rgb(200, 30, 30);
+}
+</style>
+
+
+
+</head>
+<body>
+<img src="https://lh3.googleusercontent.com/rd-saves/AA8Ys27VpAPLklxBlsUbW33qGYeM_13HTXuH1l4NEIdcWQA4D99lzMyGJ1jI2V5u3JkQfCSOAh5-vHGOM3D6unYQ1stOCR_eeS4DenpNlwtBAl1AW9hQxivHkN8WT5omEsnteYi17a1FnGytjSGRWfaqrrm46Ih5th_8m9PUjohtlyrTvvVydd2aET2VWaxyPHIiL1XTHspxTQ4PXvyfUPcm_2qZgENpxUzfZMwSaNGN3Oe1qR-9o8XscJ6r01aBAWRbdj_Agu0QaidHTfrvgAFaM_Mkewuyrty5M9npmbBPlcsi-QCHupnBeHi_0TDLDMDtp3QhDda3hF0nziw6oSEUKs_F_3AWBkhPTMjPE7maLNIGZ0MVthGdHeJuWr0z0xxYNJkaMjR5F_C23-UvJHQ9A0kY4Os1NVMhjUzmzVyOVHwqwDLHO39wZl3bpGdEbkSKO98TZuxrnTRJyc4f1zN6ykllZbAbhsfiMf9z5VwNU7_01MzqXQ7KhHpS_ueaPM0EOn8f7gyqjOjIdjj1HDkf9Xg-ks2ABbHVGOG18Y9VjxzX-tH_vB4-5FwlW9aVSI60khYZfWhcSh3oDZR-PiNdYSyJElrb6jnM9208BI6mBvmkxgzS7sF7FMKIbpOk0ysD1zyaujQVHbQAhn_hXsMdn2oxoVXpk0j0pQNoJwxoKsPt6KZ7wKBdVG4FQJ_lbdEnYHuZTR0-2hGmGpoGNIQ9rToVcaQrNWWo3EMWWY9qcVpnmn8xZqrySluyy8PiLVbmvqkQtVupET5vvEMDwsfrdSw8eQ0D5wgPeQGavNPQq6t-PkjT4slkvu3ip5-Yr4fNHFU0b6uWBVK2xkzYXCkXHv1XqrVeW-HLrLOK3rbohMkruo0taOV4nCdTTQ-3PEaUSCah6e00cqBAG0IBJUrR7r4NWhoHKAOjSRJ8BI82eBGexjMG0lLW7Vd9Cc1cydc7EVl5qyg35cP7I2lTNj7lHYQG0qaF2FgO_myE6V_MDxZH0we73vCRmTH4W9Dh_T8MGhSqs1Y_ZgrH0jAQL9AgyCI_MBqaC97xkrBCvlNyDUC_8auGpaLNSnPfkeDt8fBohbafQeAP-mt5MgI_6EDw0glmvUBYKxtpRGfSPojaWUgt2Ii2=s1129-w1129-h150-n-k?authuser=0.png" alt="inicio" style="width: 100%; height: 150px;">
+<br>
+<!-- Carrusel -->
+<div class="carousel">
+  <div class="slides" id="slides">
+    <img src="https://storage.googleapis.com/static.elsoldemexico.com.mx/elesto/2022/08/Aficion-770x450.png" alt="Estadio Nemesio Diez">
+    <!-- Video TikTok 1 -->
+    <div class="video-container">
+        <iframe src="https://www.tiktok.com/embed/7529385152703679762?autoplay=1" 
+          width="325" height="575" 
+          frameborder="0" 
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+    </div>
+    <img src="https://ds-images.bolavip.com/news/image?src=https://images.bolavip.com/webp/mx/full/BMX_20230924_BMX_14120_Imago-1414532-1024x683.webp&width=1024&height=683.png" alt="Afición Toluca">
+    <img src="https://storage.googleapis.com/static.elsoldemexico.com.mx/elesto/2023/02/WhatsApp-Image-2023-02-12-at-06.02.40.jpeg" alt="Partido Toluca">
+    <img src="https://ds-images.bolavip.com/news/image?src=https://images.bolavip.com/webp/mx/full/BMX_20241110_BMX_205470_imago1053624012-1024x682_1abf002c.webp&width=1024&height=682.png" alt="Fans Toluca">
+  </div>
+  <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+  <button class="next" onclick="moveSlide(1)">&#10095;</button>
+</div>
+
+<div style="text-align: center;"><a href="Informacion%20de%20lactarios%E7.html" target="mi_frame"><button name="LM" style="border: none ; padding: 15px 70px; background-color: rgb(255, 49, 49); color: white; font-family: brush-Script; width: 100%;">HISTORIA</button></a>
+
+<a href="Lactarios.html" target="_blank"><button name="IDE" style="border: medium none ; padding: 15px 25px; background-color: rgb(225, 49, 49); color: white; font-family: brush-Script; width: 100%;">DONDE LATE EL ROJO</button></a>
+<span style="text-decoration: underline;"><br>
+<br>
+<br>
+</span>
+<iframe name="mi_frame" id="inlineFrameExample" title="Inline Frame Example" src="../../../Users/lberm/Pictures/Screenshots/Captura%20de%20pantalla%202024-04-16%20184226.png" target="mi_frame" height="500" width="100%"></iframe>
+<!-- JavaScript para el control del carrusel -->
+<script>
+let currentIndex = 0;
+const slides = document.getElementById('slides');
+const totalSlides = slides.children.length;
+
+function moveSlide(direction) {
+  currentIndex += direction;
+  if (currentIndex < 0) currentIndex = totalSlides - 1;
+  if (currentIndex >= totalSlides) currentIndex = 0;
+  slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+}
+
+</script>
+<!-- TikTok Embed Script -->
+<script async src="https://www.tiktok.com/embed.js"></script>
+
+</body></html>
